@@ -14,7 +14,8 @@ curl --request POST \
      --data '{
          "url": "your_testing_url"
        }'
-// response:{originUrl: "your_testing_url", url:"someShortenUrl"}
+    
+response:{originUrl: "your_testing_url", url:"someShortenUrl"}
 ---------------------------------------------------------
 Description:
 
