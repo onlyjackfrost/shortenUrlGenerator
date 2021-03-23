@@ -7,10 +7,13 @@ Run Server
 
 
 Test API
-
-5. curl --request POST \
-        --url http://localhost:3000/short/url \
-        --header 'Content-Type: application/json' \
-        --data '{
-            "url": "your_testing_url"
-        }'
+curl --request POST \
+     --url http://localhost:3000/short/url \
+     --header 'Content-Type: application/json'
+     --data '{
+         "url": "your_testing_url"
+       }'
+        
+Description:
+使用了 tinyurl package 來完成產生短網址任務
+https://www.npmjs.com/package/tinyurl
